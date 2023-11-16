@@ -76,7 +76,6 @@ public class PlayerBehavior : MonoBehaviour
         }
         float xDirection = Input.GetAxisRaw("Horizontal") + leftJoystickInput; // if it moves to right it is +1 else if it moves to left it is -1
 
-        Debug.Log(xDirection);
 
         Flip(xDirection);
 
